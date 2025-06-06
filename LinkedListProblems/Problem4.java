@@ -71,8 +71,13 @@ public class Problem4 {
         list.addNode(20);
         list.addNode(30);
         list.addNode(40);
+
+        System.out.println("Before deleting:");
         list.display();
+
+        
         list.reverseList();
+        System.out.println("After deleting:");
         list.display();
     }
 }

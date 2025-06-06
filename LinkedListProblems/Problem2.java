@@ -1,3 +1,5 @@
+/*Find Middle of the Linked List */
+
 import java.util.Scanner;
 
 class Node2{
@@ -46,7 +48,6 @@ class Singly2{
 }
 
 public class Problem2 {
-    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Singly2 list = new Singly2();

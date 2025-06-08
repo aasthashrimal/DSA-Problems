@@ -1,5 +1,3 @@
-
-
 /* Given Circular linked list exchange the first and the last node. The task should be done with only one extra node, 
     you can not declare more than one extra node, and also you are not allowed to declare any other temporary variable. */
 

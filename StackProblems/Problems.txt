@@ -1,4 +1,8 @@
 Valid Parentheses in an Expression
 Evaluation of Postfix Expression  
 Infix to Postfix
-Postfix to Infix  
+Postfix to Infix
+Prefix to Infix
+Prefix to Postfix
+Postfix to Prefix  
+Infix to Prefix

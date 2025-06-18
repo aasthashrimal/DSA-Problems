@@ -15,7 +15,7 @@ public class Problem2{
 
      public static void evaluatePostfix(char[] exp){
         Stack<Integer> stack = new Stack<>();
-        int res = 0;
+        int res;
         for(char c : exp){
 
            if(Character.isDigit(c)) {                          // For string array check s.matches(-?\\d+)

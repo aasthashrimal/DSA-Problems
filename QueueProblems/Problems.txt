@@ -1,0 +1,2 @@
+Reverse first k elements of a queue
+Generate binary numbers upto decimal value n using queue

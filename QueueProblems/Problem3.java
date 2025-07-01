@@ -11,13 +11,18 @@ class QueueStack{
         s1.push(n);
     }
 
-    int dequeue(){
-        if(!s2.isEmpty()){
-            return s2.pop();
+   int dequeue(){
+        if (s2.isEmpty()) {
+            while (!s1.isEmpty()) {
+                s2.push(s1.pop());
+            }
         }
-        while(!s1.isEmpty()){
-            s2.push(s1.pop());
+
+        if (s2.isEmpty()) {
+            System.out.println("Queue is empty");
+            return -1; 
         }
+
         return s2.pop();
     }
 }

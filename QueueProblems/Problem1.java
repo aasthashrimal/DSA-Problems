@@ -25,6 +25,26 @@ public class Problem1 {
 
         return q;
     }
+
+    /* Using Recursion
+    public static void reverseRecursion(Queue<Integer> q, int k){
+        if(k<=0 || q.isEmpty())
+            return;
+        int front = q.poll();
+        reverseRecursion(q, k-1);
+        q.offer(front);
+    }
+    public void reverseKelements(Queue<Integer> q, int k) {
+        int n = q.size();
+
+        reverseRecursion(q, k);
+
+        for(int i=0;i<n-k;i++)
+        {
+            q.offer(q.poll());
+        }
+    } */
+
     public static void main(String[] args) {
         Queue<Integer> q = new LinkedList<>();
         q.offer(10);
